@@ -53,10 +53,16 @@ public class VanillaPlusMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.FLOUR);
+            event.accept(ModItems.COCONUT_HUSK);
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.LAPIS_LAZULI_BRICKS);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.COCONUT);
+            event.accept(ModItems.COCONUT_HALF);
         }
     }
 
