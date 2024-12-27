@@ -1,11 +1,9 @@
 package net.Fruits555000.vanilla_plus;
 
 import com.mojang.logging.LogUtils;
-import net.Fruits555000.vanilla_plus.block.ModBlocks;
 import net.Fruits555000.vanilla_plus.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.common.CreativeModeTabRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -37,7 +35,6 @@ public class VanillaPlusMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -52,7 +49,7 @@ public class VanillaPlusMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.FLOUR);
         }
     }
