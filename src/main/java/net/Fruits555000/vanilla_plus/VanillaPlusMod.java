@@ -58,6 +58,9 @@ public class VanillaPlusMod {
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.LAPIS_LAZULI_BRICKS);
+            event.accept(ModBlocks.LAPIS_LAZULI_BRICK_STAIRS);
+            event.accept(ModBlocks.LAPIS_LAZULI_BRICK_SLAB);
+            event.accept(ModBlocks.LAPIS_LAZULI_BRICK_WALL);
         }
 
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
