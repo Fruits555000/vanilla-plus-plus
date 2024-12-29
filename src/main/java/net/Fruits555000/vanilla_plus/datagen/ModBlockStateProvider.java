@@ -26,6 +26,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         stairsBlock(ModBlocks.LAPIS_LAZULI_BRICK_STAIRS.get(), blockTexture(ModBlocks.LAPIS_LAZULI_BRICKS.get()));
         blockItem(ModBlocks.LAPIS_LAZULI_BRICK_STAIRS);
+
         wallBlock(ModBlocks.LAPIS_LAZULI_BRICK_WALL.get(), blockTexture(ModBlocks.LAPIS_LAZULI_BRICKS.get()));
     }
 
