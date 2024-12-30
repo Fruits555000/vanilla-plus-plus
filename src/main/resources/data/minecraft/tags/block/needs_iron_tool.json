@@ -1,8 +1,8 @@
 {
   "values": [
-    "vanilla_plus:lapis_lazuli_bricks",
-    "vanilla_plus:lapis_lazuli_brick_slab",
-    "vanilla_plus:lapis_lazuli_brick_stairs",
-    "vanilla_plus:lapis_lazuli_brick_wall"
+    "vanilla_plus_plus:lapis_lazuli_bricks",
+    "vanilla_plus_plus:lapis_lazuli_brick_slab",
+    "vanilla_plus_plus:lapis_lazuli_brick_stairs",
+    "vanilla_plus_plus:lapis_lazuli_brick_wall"
   ]
 }

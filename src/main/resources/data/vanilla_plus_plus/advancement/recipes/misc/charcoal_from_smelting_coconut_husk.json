@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_coconut_husk": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanilla_plus_plus:coconut_husk"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanilla_plus_plus:charcoal_from_smelting_coconut_husk"
+      },
+      "trigger": "vanilla_plus_plus:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_coconut_husk"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanilla_plus_plus:charcoal_from_smelting_coconut_husk"
+    ]
+  }
+}
