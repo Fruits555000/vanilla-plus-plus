@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "vanilla_plus:block/lapis_lazuli_bricks"
+  }
+}
